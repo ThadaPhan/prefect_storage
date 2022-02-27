@@ -3,7 +3,7 @@ from prefect.tasks.prefect import create_flow_run, wait_for_flow_run
 from flow_utilities.prefect_configs import set_run_config, set_storage
 
 FLOW_NAME = "05_orchestrating_flow_modular"
-PROJECT_NAME = "jaffle_shop"
+PROJECT_NAME = "etl"
 
 
 with Flow(
